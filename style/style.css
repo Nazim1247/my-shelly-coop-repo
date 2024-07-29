@@ -1,0 +1,125 @@
+
+/* nav style */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.nav-1{
+    background-color: tomato;
+    padding: 0px 3px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.nav-2{
+    /* background-color: tomato;
+    padding: 2px 5px;
+    border-radius: 10px; */
+    color: tomato;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* bnner style */
+.banner{
+    display: flex;
+    justify-content: center;
+    /* gap: 50px; */
+    margin: 20px;
+    background-color: rgb(244, 242, 242);
+}
+.banner-1{
+    width: 30%;
+}
+.banner-2{
+    margin: 20px auto;
+    /* border: 1px solid tomato; */
+}
+.banner-tytle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nazim{
+    font-style: italic;
+    color: darkgrey;
+}
+/* section-2 style */
+.section{
+    background-color: aliceblue;
+    
+}
+.section-1{
+    margin: 20px auto;
+}
+.section-2-style{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.section-2{
+    text-align: center;
+    margin-top: 20px;
+}
+.div-1{
+    text-align: center;
+}
+.img{
+    width: 50%;
+    height: 50%;
+    border: 1px solid tomato;
+    border-radius: 100%;
+}
+/* section-3 style */
+.background{
+    background-color:azure;
+}
+.section-3{
+    display: flex;
+    gap: 100px;
+    margin: 40px 100px;
+    /* margin-bottom: 20px;   */
+}
+.table-title, .form-tytle{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid;
+    width: 200px;
+    height: 20px;
+}
+td{
+    text-align: center;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* width: 50%; */
+    gap: 10px;
+}
+.form-1{
+    width: 600px;
+    height: 20px;
+    margin-top: 10px;
+}
+.button{
+    margin-top: 10px;
+    background-color: tomato;
+    padding: 2px 5px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+
+}
